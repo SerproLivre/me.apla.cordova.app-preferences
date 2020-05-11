@@ -26,14 +26,14 @@ From plugin registry:
 
 From the repo:
 
-	$ cordova plugin add https://github.com/apla/me.apla.cordova.app-preferences
+	$ cordova plugin add https://github.com/SerproLivre/me.apla.cordova.app-preferences
 
 From a local clone:
 
 	$ cordova plugin add /path/to/me.apla.cordova.app-preferences/folder
 
 
-https://github.com/apla/me.apla.cordova.app-preferences/issues/97
+https://github.com/SerproLivre/me.apla.cordova.app-preferences/issues/97
 
 More information:
 [Command-line Interface Guide](http://cordova.apache.org/docs/en/edge/guide_cli_index.md.html#The%20Command-line%20Interface).
