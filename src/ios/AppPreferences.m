@@ -50,7 +50,6 @@
 
 	// https://github.com/EddyVerbruggen/cordova-plugin-3dtouch/blob/master/src/ios/app/AppDelegate+threedeetouch.m
 	if ([self.webView respondsToSelector:@selector(stringByEvaluatingJavaScriptFromString:)]) {
-		// UIWebView
 		[self.webView performSelectorOnMainThread:@selector(stringByEvaluatingJavaScriptFromString:) withObject:jsCallBack waitUntilDone:NO];
 	} else if ([self.webView respondsToSelector:@selector(evaluateJavaScript:completionHandler:)]) {
 		// WKWebView
